@@ -12,6 +12,7 @@ failure = "0.1.1"
 failure_derive = "0.1.1"
 chomp = "0.3.1"
 guid-parser = { version = "0.1.0", path = "./crates/guid-parser" }
+syn = "2.0.66"
 
 [target.'cfg(windows)'.dependencies]
 proc-macro-hack = "0.4"
